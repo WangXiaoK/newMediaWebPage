@@ -1,0 +1,64 @@
+#geren{
+	margin-left: 35%;
+	margin-top: 3%;
+}
+
+h2{
+	margin-left: 17%;
+	font-family: simhei;
+}
+
+#zxc a:link{
+	color: blue;
+}
+
+#zxc a:hover{
+	color: #ff0000;
+	font-size: 39px;
+	font-family: kaiti;
+}
+
+#zxc center h1 a{
+	text-decoration: none;
+	display: block;
+	font-family: SimHei;
+}
+
+#xia a:link,#xia a:visited{
+	color: #ff00ff;
+}
+
+#xia a:hover,#xia a:active{
+	color: #00007f;
+	font-family: kaiti;
+	font-size: 23px;
+}
+
+a{
+	text-decoration: none;
+	display: inline;
+	font-weight: 100;
+	color: #FF55FF;
+}
+
+h3{
+	cursor: pointer;
+}
+
+#zui a:link,#zui a:visited{
+	
+}
+
+#zui a:hover,#zui a:active{
+	color: #FF3815;
+	cursor: pointer;
+}
+
+#zui{
+	font-size: 18px;
+	color: #ff55ff;
+}
+
+tr{
+	font-family: kaiti;
+}

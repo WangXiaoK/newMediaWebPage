@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	background-color: #FEFDF7;
+}
+table,tr,td{
+	/* border: 1px #000000 solid; */
+}
+
+a:hover{
+	text-shadow: 1px 1px 1px red;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+a{
+	height: 98%;
+	display: block;
+	text-decoration: none;
+	margin-top: 47%;
+	font-size: 14px;
+	margin-left: 30%;
+	color: #E55551;
+}
+
+td>div{
+	width: 100%;
+	height: 100%;
+}
+
+td{
+	height: 50px;
+	width: 14.25%;
+}
+
+table{
+	height: 350px;
+	width: 100%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="./css/joinUs1.css" rel="stylesheet" />
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/Popt.js"></script>
+		<script src="js/cityJson.js"></script>
+		<script src="js/citySet.js"></script>
+	</head>
+	<body>
+		
+		<form>
+			<h1><span>不甘落后的你想好了吗？快来加入我们吧！</span></h1>
+			<div>
+				<label>姓名：</label><input type="text" />
+			</div>
+			<div>
+				<label>电话号码：</label><input type="text" />
+			</div>
+			<div>
+				<label>家庭住址：</label><input type="text" id="city" />
+			</div>
+			<div>
+				<label>性别：</label><span class="spanSex">男</span><input class="sexInput" type="radio" name="sex" id="male">
+				<span class="spanSex">女</span><input class="sexInput" type="radio" name="sex" id="female">
+			</div>
+			<div>
+				<label>毕业学校：</label><input type="text" />
+			</div>
+			<div>
+				<input id="submitID" type="submit" value="提交" />
+			</div>
+		</form>
+		<script type="text/javascript">
+		$("#city").click(function (e) {
+			SelCity(this,e);
+		});
+		</script>
+	</body>
+</html>

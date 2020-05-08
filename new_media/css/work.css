@@ -1,0 +1,143 @@
+*{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: 800px;
+	width: 100%;
+}
+
+tr>td a{
+	display: block;
+	margin-top: 40%;
+	margin-left: 30%;
+	height: 26px;
+	width: 100px;
+	text-align: center;
+	background-color: #6495ED;
+	border-radius: 100px;
+	color: white;
+	font-size: 16px;
+}
+
+td div{
+	width: 100%;
+	height: 100%;
+}
+
+tr>td:nth-child(2) p:nth-child(3){
+	font-size: 13px;
+	margin-top: 9%;
+	margin-bottom: 5%;
+	color: #989893;
+}
+
+tr>td:nth-child(2) p:nth-child(2){
+	font-size: 13px;
+	margin-top: 9%;
+	margin-bottom: 5%;
+	color: #989893;
+}
+
+
+tr>td:nth-child(2) p:nth-child(1){
+	font-size: 16px;
+	margin-top: 9%;
+	margin-bottom: 5%;
+}
+
+/* tr>td:nth-child(2)>div{
+	width: 100%;
+	height: 100%;
+} */
+
+tr>td:nth-child(1) span:nth-child(1){
+	color: #FF7900;
+}
+
+tr>td:nth-child(1) span:nth-child(2){
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+	font-size: 13px;
+	border: 1px darkgrey solid;
+	border-radius: 100px;
+	background-color: #F2F2F2;
+}
+
+tr>td:nth-child(1) span:nth-child(3){
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+	font-size: 13px;
+	border: 1px darkgrey solid;
+	border-radius: 100px;
+	background-color: #F2F2F2;
+}
+
+
+
+tr>td:nth-child(1)>div>p:nth-child(3){
+	border: 1px darkgrey solid;
+	width: 60px;
+	margin-left: 4%;
+	text-align: center;
+	font-size: 13px;
+	border-radius: 120px;
+	background-color: #F2F2F2;
+}
+
+tr>td:nth-child(1)>div>p:nth-child(2){
+	width: 80%;
+	height: 40px;
+	margin-left: 4%;
+}
+
+tr>td:nth-child(1)>div>p:nth-child(1){
+	font-size: 18px;
+	width: 80%;
+	height: 40px;
+	margin-left: 4%;
+	margin-top: 4%;
+}
+/* tr>td:nth-child(1)>div{
+	width: 100%;
+	height: 100%;
+} */
+tr>td:nth-child(1){
+	width: 50%;
+	height: 150px;
+	/* background-color: #6495ED; */
+}
+tr>td:nth-child(2){
+	width: 25%;
+	height: 150px;
+	/* background-color: #00FF00; */
+}
+
+tr>td:nth-child(3){
+	width: 25%;
+	height: 150px;
+	/* background-color: #EA706F; */
+}
+
+tr:hover{
+	background-color: #F7E8BC;
+	border-left: 1px #F7E8BC solid;
+}
+
+tr{
+	background-color: #FEFDF7;
+	border: 1px #EEEEEE solid;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	height: 600px;
+}
+
+table,tr,td{
+	/* border: 1px black solid; */
+}
